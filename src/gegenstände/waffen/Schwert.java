@@ -6,4 +6,7 @@ public class Schwert extends Waffe {
 		super(id, preis, dmg);
 	}
 
+	public void use() {
+		System.out.println("Schwert wurde benutzt.");
+	}
 }

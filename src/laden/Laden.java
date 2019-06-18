@@ -21,6 +21,7 @@ public class Laden {
 					inventarSpieler.add(k);
 					spieler.setRucksack(inventarSpieler);
 					spieler.setGold(spieler.getGold()-k.getPreis());
+					System.out.println("Item gekauft: " + k.getClass().getSimpleName());
 					inventar.remove(k);
 					return;
 				}
@@ -43,6 +44,7 @@ public class Laden {
 		for(int j = 0; j<inventar.size(); j++) {
 			System.out.println(inventar.get(j).getClass().getSimpleName());
 		}
+		System.out.println("\n");
 		return s;
 	}
 }

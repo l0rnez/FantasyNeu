@@ -6,7 +6,7 @@ public class FluchDerSchreibfeder extends Schriftrolle {
 		super(id, preis);
 	}
 	
-	public void Fluch() {
+	public void use() {
 		System.out.println("Alle Schwerter wurden zerstört.");
 	}
 }

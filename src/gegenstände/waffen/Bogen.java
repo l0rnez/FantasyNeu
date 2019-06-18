@@ -8,4 +8,7 @@ public class Bogen extends Waffe {
 		super(id, preis, dmg);
 	}
 
+	public void use() {
+		System.out.println("Bogen wurde benutzt.");
+	}
 }

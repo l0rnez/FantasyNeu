@@ -6,7 +6,7 @@ public class AugenVonHypnos extends Schriftrolle {
 		super(id, preis);
 	}
 
-	public void hypnos() {
+	public void use() {
 		System.out.println("Monster wurden gelähmt.");
 	}
 }

@@ -12,4 +12,8 @@ public class Silberring extends Ring {
 	public int getKampfstärke() {
 		return kampfstärke;
 	}
+	
+	public int use() {
+		return kampfstärke;
+	}
 }

@@ -28,8 +28,9 @@ public class Spieler {
 		String s = "[Rucksack]\n";
 		System.out.println(s);
 		for(Ikäuflich k : rucksack) {
-			System.out.println(k.getClass().getSimpleName() + "\n");
+			System.out.println(k.getClass().getSimpleName());
 		}
+		System.out.println("\n");
 		return s;
 	}
 
@@ -39,6 +40,14 @@ public class Spieler {
 
 	public int getGold() {
 		return gold;
+	}
+
+	public int getKampfstärke() {
+		return kampfstärke;
+	}
+
+	public void setKampfstärke(int kampfstärke) {
+		this.kampfstärke = kampfstärke;
 	}
 
 	public void setGold(int gold) {
